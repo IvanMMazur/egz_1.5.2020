@@ -11,7 +11,7 @@
       var r = document.getElementById("R").value;
       var g = document.getElementById("G").value;
       var b = document.getElementById("B").value;
-      if (r>0 && r<256 && g>0 && g<256 && b>0 && b<256){
+      if (r>=0 && r<256 && g>=0 && g<256 && b>=0 && b<256){
         var save = document.getElementById("prawy").style.backgroundColor = "rgb("+r+","+g+","+b+")";
       }
       else {
